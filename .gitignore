@@ -1,9 +1,45 @@
+# environment files
+.env*
+!.env.example
+!.env.*.example
+
+# dependencies and generated web output
 node_modules/
-dist/
+.pnp.*
+.pnpm-store/
+.next/
+out/
+.vercel/
+.turbo/
+coverage/
+*.tsbuildinfo
 build/
-.env
-.env.local
-*.log
+
+# Python virtual environments and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# editors and operating systems
+.vscode
+.idea
+*.swp
+*.swo
 .DS_Store
-.vscode/
-.idea/
+Thumbs.db
+
+# logs and local secrets
+*.log
+*.pem
+*.p12
+*.pfx
+
+# local media
+media/
