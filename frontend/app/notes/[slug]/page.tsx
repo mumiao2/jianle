@@ -100,7 +100,7 @@ export default async function NoteDetailPage({ params }: PageProps) {
 
           <div className="grid gap-12 lg:grid-cols-[minmax(0,1fr)_220px] lg:gap-16">
             <article
-              className="max-w-3xl text-[15px] leading-8 text-[#55564e] sm:text-base [&_a]:text-[#69704f] [&_a]:underline [&_a]:underline-offset-4 [&_a:hover]:text-[#34372b] [&_blockquote]:border-l-2 [&_blockquote]:border-[#c9cbb8] [&_blockquote]:pl-5 [&_blockquote]:italic [&_blockquote]:text-[#77786f] [&_code]:rounded [&_code]:bg-[#f0efe9] [&_code]:px-1.5 [&_code]:py-0.5 [&_h1]:mb-5 [&_h1]:mt-10 [&_h1]:text-3xl [&_h1]:font-medium [&_h1]:text-[#34372b] [&_h2]:mb-4 [&_h2]:mt-10 [&_h2]:text-2xl [&_h2]:font-medium [&_h2]:text-[#34372b] [&_h3]:mb-3 [&_h3]:mt-8 [&_h3]:text-xl [&_h3]:font-medium [&_h3]:text-[#34372b] [&_li]:my-2 [&_ol]:list-decimal [&_ol]:pl-6 [&_p]:my-6 [&_pre]:my-7 [&_pre]:overflow-x-auto [&_pre]:rounded-xl [&_pre]:bg-[#292b24] [&_pre]:p-5 [&_pre]:text-sm [&_pre]:leading-7 [&_pre]:text-[#f3f2eb] [&_pre_code]:bg-transparent [&_pre_code]:p-0 [&_ul]:list-disc [&_ul]:pl-6"
+              className="reading-content"
               dangerouslySetInnerHTML={{ __html: html }}
             />
 
